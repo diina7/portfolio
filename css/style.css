@@ -1,0 +1,286 @@
+body{
+  height: 140vh;
+  
+  }
+
+.image{
+  margin: 0; 
+  padding: 0;
+  left: 0;
+  right: 0;
+  min-height: 140vh;
+  background-image:url(background.gif);
+  max-height: 100%;
+  width: auto;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(4, 1, 29);
+    padding: 10px 10px;
+    text-align: center;
+    z-index: 2;
+    
+  }
+  
+  .header a {
+    float: center;
+    color:white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .header {
+    float: center;
+  }
+ 
+  .landing{
+    color: white;
+    width: 50%;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 150px;
+    left: 8%;
+    transition-property: text-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    
+    }
+  
+    .landing:hover{
+      text-shadow: 2px 2px black;
+    }
+
+  .pic{
+    width: 300px;
+    border-radius: 90%;
+    position: absolute;
+    top:80px;
+    right: 100px;
+    transition-property: box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    }
+  
+    .pic:hover{
+      box-shadow: 2px 2px black;
+    }
+
+  .about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+    text-align: right;
+    font-size: x-large;
+    width: 80%;
+    position: absolute;
+    top: 500px;
+    right: 12%;
+    transition-property: text-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+ 
+  }
+
+  .about:hover{
+    text-shadow: 2px 2px black;
+  }
+
+  .projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+    text-align: left;
+    font-size: x-large;
+    width: 80%;
+    position: absolute;
+    top: 1050px;
+    left: 12%;
+    transition-property: text-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+   
+    }
+  
+    .projects:hover{
+      text-shadow: 2px 2px black;
+    }
+
+  .contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+    font-size: x-large;
+    width: 80%;
+    position: absolute;
+    top: 1600px;
+    left: 10%;
+    padding-bottom: 200px;
+    transition-property: text-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+   
+    }
+  
+    .contact:hover{
+      text-shadow: 2px 2px black;
+    }
+
+
+  .footer {
+    position:absolute;
+    top:2105px;
+    left: 0;
+    right: 0;
+
+    overflow: hidden;
+    background-color:rgb(20, 13, 85);
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 90%;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+    
+  .fa-github {
+    background:black;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #1476c0;
+    color: white;
+  }
+
+  @media screen and (max-width: 700px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    .landing{
+      color: white;
+      font-family: monospace;
+      font-size: x-large;
+      position: absolute;
+      width:auto;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .pic{
+      width: 300px;
+      border-radius: 90%;
+      position: absolute;
+      top:400px;
+      right: 80px;
+    }
+
+    .about{
+      color: white;
+      font-size: larger;
+      font-family: monospace;
+      text-align: right;
+      font-size: x-large;
+      width: 80%;
+      position: absolute;
+      top: 820px;
+      right: 12%;
+    }
+    .projects{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: white;
+      font-size: larger;
+      font-family: monospace;
+      text-align: left;
+      font-size: x-large;
+      width: 80%;
+      position: absolute;
+      top: 1470px;
+      left: 12%;
+    }
+  
+    .contact{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: white;
+      font-size: larger;
+      font-family: monospace;
+      text-align: center;
+      font-size: x-large;
+      width: 80%;
+      position: absolute;
+      top: 2180px;
+      left: 10%;
+  
+      padding-bottom: 170px;
+    }
+    .footer {
+      position:absolute;
+      top:2680px;
+      left: 0;
+      right: 0;
+  
+      overflow: hidden;
+      background-color:rgb(20, 13, 85);
+      padding: 20px 20px;
+      text-align: center;
+    }
+  }
